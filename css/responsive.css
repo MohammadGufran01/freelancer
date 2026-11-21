@@ -1,0 +1,193 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN SYSTEM & MEDIA QUERIES
+   ========================================================================== */
+
+/* Large Tablets & Small Desktops (<= 1080px) */
+@media (max-width: 1080px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero-description {
+    max-width: 100%;
+  }
+
+  .trifecta-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-top > div:first-child {
+    grid-column: span 2;
+  }
+}
+
+/* Tablets (<= 860px) */
+@media (max-width: 860px) {
+  .nav-menu, .header-cta {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: inline-flex;
+  }
+
+  .project-case-study,
+  .project-case-study:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+
+  .project-preview-column,
+  .project-case-study:nth-child(even) .project-preview-column {
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .project-case-study:nth-child(even) .project-preview-column {
+    order: 0;
+  }
+
+  .project-case-study:nth-child(even) .project-details-column {
+    order: 1;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bento-card.span-2 {
+    grid-column: span 1;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full-width {
+    grid-column: span 1;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile Devices (<= 640px) */
+@media (max-width: 640px) {
+  .section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .trifecta-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .project-features-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-actions .btn {
+    width: 100%;
+  }
+
+  .ui-metric-row {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top > div:first-child {
+    grid-column: span 1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .modal-dialog {
+    max-height: 94vh;
+    border-radius: var(--radius-lg);
+  }
+
+  .modal-header {
+    padding: 1.25rem;
+  }
+
+  .modal-body {
+    padding: 1.25rem;
+  }
+
+  .toast-container {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  .toast {
+    width: 100%;
+  }
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .status-dot::after {
+    display: none;
+  }
+
+  .mouse-wheel {
+    animation: none;
+  }
+}

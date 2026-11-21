@@ -1,0 +1,58 @@
+================================================================================
+FULL-STACK DEVELOPER & SOFTWARE ENGINEER
+Specialization: Java, Angular & Spring Boot Ecosystem
+Email: contact.developer.pro@gmail.com
+Location: Remote / Worldwide Client Collaboration
+================================================================================
+
+PROFESSIONAL SUMMARY
+--------------------------------------------------------------------------------
+Full-Stack Developer and Software Engineer specializing in building custom web 
+applications, business platforms, e-commerce websites, admin dashboards, APIs, 
+and scalable software solutions. Deep expertise in enterprise Java, Spring Boot 
+microservices, and modern Angular frontend architecture, combined with practical 
+experience in Python, Django, and relational database engineering.
+
+CORE COMPETENCIES & TECHNICAL SPECIALIZATION
+--------------------------------------------------------------------------------
+• Backend Development: 
+  Java, Spring Boot, Spring MVC, Spring Security, Hibernate ORM, Python, Django
+• Frontend Engineering: 
+  Angular (Standalone components, Reactive Forms, RxJS), JavaScript (ES6+), 
+  HTML5, CSS3, Bootstrap, Responsive Web Design
+• Database Systems: 
+  MySQL, SQL, MongoDB, Database Normalization, Indexing, Query Optimization
+• API & Architecture: 
+  RESTful API Design, Microservices, MVC Architecture, JWT Authentication, 
+  Role-Based Access Control (RBAC), OOP Principles
+• DevOps & Tooling: 
+  Docker, Git, GitHub Actions, Maven, Postman, Linux CLI
+
+SELECTED PROJECT CASE STUDIES
+--------------------------------------------------------------------------------
+1. MH CLUB E-COMMERCE PLATFORM
+   • Technologies: Python, Django, SQL, HTML5, CSS3, JavaScript
+   • Features: Product catalog, dynamic shopping cart, authenticated user profiles,
+     transactional order management, and operational administrative dashboard.
+   • Architecture: MVT pattern with session persistence and secure CSRF verification.
+
+2. SMART FOOD DONATION DIRECTORY
+   • Technologies: Java, Spring Boot, Spring MVC, Thymeleaf, Hibernate, MySQL
+   • Features: Verified donor directory, perishable food expiration tracking, 
+     transactional claim workflows, and NGO distribution lifecycle.
+   • Architecture: Layered Spring Boot service architecture with relational schema.
+
+3. VOLUNTEERHUB ENTERPRISE MANAGEMENT SYSTEM
+   • Technologies: Java, Spring Boot, Spring Security, Hibernate, MySQL
+   • Features: Multi-tier role permissions (Admin, Organization, Volunteer), 
+     Haversine GPS geofence attendance verification, automated cryptographic 
+     certificate generation.
+   • Architecture: Method-level Spring Security RBAC and automated PDF pipeline.
+
+DEVELOPMENT PRINCIPLES & WORKING STANDARDS
+--------------------------------------------------------------------------------
+• End-to-end project ownership from requirement scoping to deployment
+• Clean, maintainable, self-documenting code
+• Secure application architecture and defense-in-depth principles
+• Clear, transparent client communication and milestone predictability
+================================================================================

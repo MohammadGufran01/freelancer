@@ -1,0 +1,21 @@
+{
+  "name": "premium-freelance-portfolio",
+  "version": "1.0.0",
+  "description": "Production-ready, high-converting freelance full-stack developer portfolio specializing in Java, Spring Boot, Angular, and Python.",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "freelance",
+    "full-stack",
+    "java",
+    "angular",
+    "spring-boot",
+    "python"
+  ],
+  "author": "Full-Stack Developer",
+  "license": "MIT"
+}
